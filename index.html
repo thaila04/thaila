@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Tempo nas Redes Sociais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Meu Tempo nas Redes Sociais</h1>
+        <p>Quantas horas por dia você passa nas redes sociais?</p>
+
+        <input
+            type="number"
+            id="horas"
+            placeholder="Digite suas horas diárias"
+            min="0"
+            max="24"
+            step="0.5"
+        >
+
+        <button id="calcular">Calcular meu tempo</button>
+        <div id="resultado" aria-live="polite"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
